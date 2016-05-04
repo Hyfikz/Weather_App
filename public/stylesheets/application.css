@@ -1,5 +1,16 @@
-.container {
+body {
+  color: rgba(116, 157, 160, 1);
+  background-image: url("http://revelwallpapers.net/d/756D78797059764879724B586B356952716D3573734E6A653238696A63773D3D/rain-road.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+}
+
+.container {
+  background-color: rgba(157, 219, 215, 0.75);
+  border-radius: 15px;
   max-width: 110vh;
   max-width: 700px;
 }
@@ -12,55 +23,15 @@
   font-size: 50px;
 }
 
-#addContact {
-  margin: 1.6em 0.25em 1.5em 1.5em;
+button:focus {
+  background-color: rgba(245, 219, 215, 0.65);
 }
 
-#displayContacts {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Century Gothic, sans-serif;
-  font-size: 16px;
-  justify-content: flex-start;
+#autocomplete {
+  cursor: pointer;
 }
 
-#row {
-  /*display: flex;*/
-}
-
-#first{
-  width: 200px;
-}
-
-#buttons {
-  width: 60px;
-  margin-left: 1em;
-}
-
-td#email {
-  width: 250px;
-  margin-left: 2vw;
-}
-
-td#phone {
-  width: 164px;
-  margin-left: 2vw;
-  font-family: Century Gothic, sans-serif;
-  font-size: 15px;
-}
-
-#editContactButton {
-  border-color: #ffffff;
-}
-
-#deleteContactButton {
-  border-color: #ffffff;
-}
-
-#search-field {
-  font-family: Century Gothic, sans-serif;
-}
-
-#searchContactsButton {
-  font-family: Century Gothic, sans-serif;
+#title {
+  font-family: Verdana, sans-serif;
+  text-align: center;
 }
