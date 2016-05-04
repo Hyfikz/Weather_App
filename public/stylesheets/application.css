@@ -1,0 +1,66 @@
+.container {
+
+  max-width: 110vh;
+  max-width: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#addContact {
+  margin: 1.6em 0.25em 1.5em 1.5em;
+}
+
+#displayContacts {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Century Gothic, sans-serif;
+  font-size: 16px;
+  justify-content: flex-start;
+}
+
+#row {
+  /*display: flex;*/
+}
+
+#first{
+  width: 200px;
+}
+
+#buttons {
+  width: 60px;
+  margin-left: 1em;
+}
+
+td#email {
+  width: 250px;
+  margin-left: 2vw;
+}
+
+td#phone {
+  width: 164px;
+  margin-left: 2vw;
+  font-family: Century Gothic, sans-serif;
+  font-size: 15px;
+}
+
+#editContactButton {
+  border-color: #ffffff;
+}
+
+#deleteContactButton {
+  border-color: #ffffff;
+}
+
+#search-field {
+  font-family: Century Gothic, sans-serif;
+}
+
+#searchContactsButton {
+  font-family: Century Gothic, sans-serif;
+}
